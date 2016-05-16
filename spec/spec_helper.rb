@@ -90,3 +90,6 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+require 'turnip/capybara'
+Dir.glob("spec/features/step_definitions/**/*_steps.rb") { |f| load f, true }

@@ -1,0 +1,3 @@
+-r rutabaga
+--color
+--require spec_helper
